@@ -1,0 +1,24 @@
+Package: webdeveloper
+Type: Package
+Title: Functions for Web Development
+Version: 1.0.5
+Author: Timothy Conwell
+Maintainer: Timothy Conwell <timconwell@gmail.com>
+Description: Organizational framework for web development in R including functions to  
+    serve static and dynamic content via HTTP methods, includes the html5 package to
+    create HTML pages, and offers other utility functions for common tasks related 
+    to web development.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Depends: 
+  httpuv,
+  html5 (>= 1.0.0)
+Imports:
+  future,
+  promises,
+  readr,
+  stringi
+RoxygenNote: 7.2.0
+URL: https://github.com/tconwell/webdeveloper
+BugReports: https://github.com/tconwell/webdeveloper/issues
