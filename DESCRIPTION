@@ -8,7 +8,7 @@ Description: Organizational framework for web development in R including functio
     serve static and dynamic content via HTTP methods, includes the html5 package to
     create HTML pages, and offers other utility functions for common tasks related 
     to web development.
-License: GPL (>= 2)
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Depends: 
